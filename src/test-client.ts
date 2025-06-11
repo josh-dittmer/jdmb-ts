@@ -1,8 +1,8 @@
 import * as net from 'node:net';
 
 export function startClient() {
-    const host = 'localhost';
-    const port = 4484;
+    const host = '172.16.15.62';
+    const port = 4444;
 
     const client = new net.Socket();
 
