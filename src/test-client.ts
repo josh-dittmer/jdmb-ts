@@ -3,7 +3,6 @@ import * as net from 'node:net';
 export function startClient() {
     const host = 'localhost';
     const port = 4484;
-
     const client = new net.Socket();
 
     let totalMessages = 0;
