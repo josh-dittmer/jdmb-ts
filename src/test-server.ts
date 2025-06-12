@@ -24,10 +24,10 @@ export function startServer() {
 
             //socket.write('Test 2');
 
-            setTimeout(() => {
+            /*setTimeout(() => {
                 //socket.write('Test message');
                 socket.end();
-            }, 2000);
+            }, 2000);*/
         });
 
         socket.on('close', () => {
@@ -38,7 +38,7 @@ export function startServer() {
             console.error(`Socket error: ${err}`);
         });
 
-        socket.write('Test 1');
+        //socket.write('Test 1');
     });
 
     server.listen(port, () => {
