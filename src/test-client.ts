@@ -14,7 +14,7 @@ export function startClient() {
         const buf = new Uint8Array(32768);
         buf.fill('A'.charCodeAt(0));
 
-        let i = 1000000;
+        let i = 1;
 
         const write = () => {
             let ok = true;
